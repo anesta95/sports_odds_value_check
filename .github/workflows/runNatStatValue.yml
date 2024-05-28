@@ -3,7 +3,7 @@ name: value-calculator-national-statistical
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 03 * * *' # runs once every day at 11:03 am Eastern Time US
+    - cron: '15 15 * * *' # runs once every day at 11:03 am Eastern Time US
 
 jobs:
   build:
