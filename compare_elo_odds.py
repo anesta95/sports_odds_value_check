@@ -214,8 +214,6 @@ ntst_df_full = pd.read_csv("./ntst_value_data.csv", index_col=None)
 
 ntst_df_combined = pd.concat([ntst_df_today, ntst_df_full])
 
-print(ntst_df_combined)
-
 ntst_df_combined.to_csv("./ntst_value_data.csv", index=False)
 
 ## Inputs: 
